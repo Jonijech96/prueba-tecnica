@@ -10,7 +10,7 @@ export const Main = () => {
         <div className="hero-content flex container">
           <div className="hero-text">
             <div className="hero-title">
-              <img src={icpin} alt="" className="hero-icon" />
+              <img src={icpin} alt="pin ubicacion" className="hero-icon" />
               <h1>AMERICA DEL SUR</h1>
             </div>
             <span className="line"></span>
@@ -25,7 +25,7 @@ export const Main = () => {
           <div className="hero-notes">
             <span className="hero-notes-title">
               PRÓXIMA AVENTURA
-              <img src={arrow} alt="" />
+              <img src={arrow} alt="arrow left" />
             </span>
             <h4 className="hero-notes-subtitle">Europa Meridional</h4>
             <h5>Forman parte de veinte países,</h5>
