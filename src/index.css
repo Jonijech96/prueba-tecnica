@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+
+:root {
+  /* Colors: */
+  --unnamed-color-cbd0d3: #cbd0d3;
+  --unnamed-color-2a3037: #2a3037;
+  --unnamed-color-f6f8f9: #f6f8f9;
+  --unnamed-color-ebebeb: #ebebeb;
+  --unnamed-color-fa6980: #fa6980;
+  --unnamed-color-ffffff: #ffffff;
+
+  /* Font/text values */
+  --unnamed-font-family-montserrat: Montserrat;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-light: lighter;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 19px;
+  --unnamed-font-size-24: 24px;
+  --unnamed-font-size-22: 22px;
+  --unnamed-font-size-48: 48px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-26: 26px;
+  --unnamed-line-spacing-34: 34px;
+  --unnamed-line-spacing-42: 42px;
+
+  font-family: var(--unnamed-font-family-montserrat);
+}
+
+h2 {
+  font-size: var(--unnamed-font-size-24);
+}
+h3 {
+  font-size: var(--unnamed-font-size-22);
+}
+p {
+  font-size: 12px;
+  line-height: var(--unnamed-line-spacing-26);
+}
+h5 {
+  font-size: 14px;
+  font-weight: var(--unnamed-font-weight-light);
+  line-height: 22px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+li {
+  list-style: none;
+  font-weight: var(--unnamed-font-weight-bold);
+  line-height: var(--unnamed-line-spacing-42);
+  font-size: 18px;
+  color: var(--unnamed-color-2a3037);
+}
+
+li.active {
+  color: var(--unnamed-color-2a3037);
+}
+
+a:hover {
+  color: var(--unnamed-color-2a3037);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+@media (min-width: 750px) {
+  h2 {
+    font-size: var(--unnamed-font-size-24);
+  }
+  h1 {
+    font-size: var(--unnamed-font-size-48);
+  }
+  li {
+    display: flex;
+    align-items: center;
+    color: var(--unnamed-color-cbd0d3);
+  }
+}

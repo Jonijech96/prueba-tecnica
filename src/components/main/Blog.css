@@ -1,0 +1,121 @@
+.article-small {
+  display: none;
+}
+
+.blog {
+  background-image: linear-gradient(to bottom, var(--unnamed-color-ebebeb) 0px, var(--unnamed-color-ebebeb) 250px, var(--unnamed-color-ffffff) 250px, var(--unnamed-color-ffffff) 100%);
+  min-height: 100vh;
+  color: var(--unnamed-color-ffffff);
+  padding: 50px 0;
+}
+
+.article-big-item {
+  height: 430px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.item-city {
+  background-image: url('../../assets/img/articulo_big_01.png');
+
+}
+
+.item-adventure {
+  background-image: url('../../assets/img/articulo_big_02.png');
+}
+
+
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 40px 0;
+}
+
+.article-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.article-time {
+  color: var(--unnamed-color-cbd0d3);
+  display: flex;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.article-big {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.article-small {
+  display: none;
+}
+
+.article-small-item {
+  width: 353px;
+  height: 278px;
+}
+
+.article-description {
+  display: none;
+}
+
+.article-small-image-1 {
+  background-image: url('../../assets/img/articulo_small_01.png');
+}
+
+.article-small-image-2 {
+  background-image: url('../../assets/img/articulo_small_02.png');
+}
+
+.article-small-image-3 {
+  background-image: url('../../assets/img/articulo_small_03.png');
+}
+
+.article-small-image {
+  height: 76%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.article-small-text {
+  padding-top: 20px;
+  height: 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--unnamed-color-2a3037);
+}
+
+@media (min-width:750px) {
+  .article-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .article-container {
+    display: flex;
+    max-width: 1100px;
+    ;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .article-big-item {
+    width: 715px;
+
+  }
+
+  .blog {
+    padding: 85px 0 65px 0;
+  }
+}
