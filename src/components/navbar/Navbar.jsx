@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo/logo_01.svg";
-import { BurgerButton } from "../BurgerButton";
+import { BurgerButton } from "./BurgerButton";
 
 export const Navbar = () => {
   const [handleMenu, setHandleMenu] = useState(false);
